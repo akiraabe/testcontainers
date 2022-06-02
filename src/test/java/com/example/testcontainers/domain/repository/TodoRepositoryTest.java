@@ -22,7 +22,7 @@ public class TodoRepositoryTest {
     private TodoRepository todoRepository;
 
     // TODO: BeforeAllだとSqlが実行されないように見える。
-    // やむなく、各テストメソッドでinit.sqlを呼ぶようにした。BeforeEachの方がいいかも？
+    // やむなく、各テストメソッドでinit.sqlを呼ぶようにした。BeforeEachの方がいいかも？(試したらBeforeEachでもSql呼ばれない)
     // @BeforeAll
     // @Sql(scripts="classpath:/scripts/init.sql")
     // static void beforeAll() {
