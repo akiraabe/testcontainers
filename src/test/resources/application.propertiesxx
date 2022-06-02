@@ -1,0 +1,8 @@
+spring.datasource.url=jdbc:tc:mysql:5.7.38://hostname:port/test?TC_MY_CNF=mysql_conf
+spring.datasource.driver-class-name=org.testcontainers.jdbc.ContainerDatabaseDriver
+spring.datasource.username=test
+spring.datasource.password=
+spring.datasource.sql-script-encoding=utf-8
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
