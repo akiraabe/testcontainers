@@ -23,4 +23,10 @@ mvn spring-boot:run
 
 ### Test
 
+```shell
+# We assume you are in the top directory of the project.
+mvn test
+```
+
+or 
 Please run the test from IDE.
