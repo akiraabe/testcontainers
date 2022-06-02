@@ -24,8 +24,6 @@ public class TodoRepositoryTest {
     @Sql(scripts = "classpath:/scripts/init.sql")
     public void test() {
         List<Todo> todos = todoRepository.findAll();
-        
-        todos.forEach(System.out::println);
         Assertions.assertThat(todos.size()).isEqualTo(3);
     }
 }
