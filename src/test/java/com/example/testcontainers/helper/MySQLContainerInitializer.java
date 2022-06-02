@@ -16,8 +16,8 @@ public class MySQLContainerInitializer implements ApplicationContextInitializer<
     private static final String PASSWORD = "password";
     private static final int PORT = 3306;
 
-    private static final String INIT_SQL = "docker-entrypoint-initdb.d/init.sql";
-    private static final String INIT_SQL_IN_CONTAINER = "/docker-entrypoint-initdb.d/init.sql";
+    private static final String INIT_SQL = "script/init.sql";
+    private static final String INIT_SQL_IN_CONTAINER = "/script/init.sql";
 
     private static final Logger LOGGER =
         LoggerFactory.getLogger(MySQLContainerInitializer.class);
